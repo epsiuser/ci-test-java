@@ -17,7 +17,7 @@ public class HelloControllerTest {
     public void should_return_helloWorld_name_when_params_isNotNull() {
         HelloController helloController = new HelloController();
 
-        assertThat(helloController.index("Fouad")).isEqualTo("Hello Fouad");
+        assertThat(helloController.index("Foua")).isEqualTo("Hello Fouad");
     }
 
 }
